@@ -46,6 +46,9 @@ def copy_single_file(src, dest):
             filedest.close()
         print(e)
 
+def list_pathfiles(path):
+    return []
+
 
 if __name__ == '__main__':
     create_file('1234.txt')
